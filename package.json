@@ -1,6 +1,6 @@
 {
   "name": "vue-zev3-test",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "dist/vue-address.common.js",
   "scripts": {
     "serve": "vue-cli-service serve",
