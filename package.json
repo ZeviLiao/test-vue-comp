@@ -1,11 +1,12 @@
 {
   "name": "vue-addresstw",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "main": "dist/vue-address.common.js", 
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "build:prj": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "build": "vue-cli-service build --target lib --name vue-address ./src/components/index.js"
   },
   "dependencies": {
     "core-js": "^3.6.5",
