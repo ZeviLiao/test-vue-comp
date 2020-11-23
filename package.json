@@ -1,7 +1,7 @@
 {
-  "name": "vue-addresstw",
-  "version": "1.0.0",
-  "main": "dist/vue-address.common.js", 
+  "name": "vue-zev3-test",
+  "version": "1.0.3",
+  "main": "dist/vue-address.common.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build:prj": "vue-cli-service build",
@@ -39,5 +39,23 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZeviLiao/test-vue-comp.git"
+  },
+  "files": [
+    "dist/*",
+    "src/*",
+    "public/*"
+  ],
+  "keywords": [
+    "Taiwan",
+    "address",
+    "zipcode",
+    "臺灣",
+    "郵遞區號",
+    "地址"
+  ],
+  "description": "A Vue component for select Taiwan county, city and zipcode."
 }
